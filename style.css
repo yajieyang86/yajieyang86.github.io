@@ -1,0 +1,91 @@
+/* External stylesheet */
+body {
+  background-color: #DDD78D;
+  color: #333;
+  font-family: Arial, Verdana, Tahoma;
+   
+}
+
+header, footer {
+  background-color: #60594D;
+  color: #93A29B;
+  border: 4px solid #333;
+  padding: 30px;
+  
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+  }
+
+ nav {
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+/*In this example, the display: flex property sets the nav element to a flex container.
+ The justify-content: center property centers the navigation elements horizontally within 
+ the container. The align-items: center property centers the navigation elements vertically 
+ within the container. 
+ The gap: 10px property creates a 10 pixel gap between each navigation element.*/
+
+nav a {
+  text-decoration: none;
+  color: #333; 
+  font-size: 12pt;
+  background-color: rgb(227, 139, 25);
+  }
+
+  
+nav a:hover {
+  background-color: white;
+  color: #8B635C;
+  }
+
+
+main h2 {
+  font-weight: bold;
+  font-size:25pt;
+}
+
+main p {
+  font-size: 14pt;
+  text-align: left;
+  margin: 10px 0; /* 10 pixels of margin at the top and bottom */
+}
+
+main blockquote {
+  background-color: #DCBF85;
+  text-align: center;
+  margin: 10px 20px; /* 10 pixels of margin at the top and bottom, 20 pixels of margin on the left and right */
+  padding: 10px; /* 10 pixels of padding on all sides */
+}
+
+ul > h3 {
+  font-weight: bold;
+  font-size: 14pt;
+  text-align: left;
+  margin: 10px 0;
+} 
+/*
+The > symbol in the CSS selector is called a child combinator and 
+it specifies that the selected elements should be direct children of the parent element. 
+This means that only unordered list items that are directly nested inside the <ul> element
+ will be selected and have the specified styles applied to them.
+*/
+
+img {
+  float: right;
+  width: 25%;
+  margin: 10px;
+}
+
+footer p {
+  text-align: right;
+  font-size: 10pt;
+  font-style: italic;
+  padding: 20px 0;
+}
